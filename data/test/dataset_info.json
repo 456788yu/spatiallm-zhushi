@@ -1,0 +1,46 @@
+{
+  "builder_name": "csv",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "spatial_lm-testset",
+  "dataset_size": 7169,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/manycore-research/SpatialLM-Testset@3a5c44deac7ac1de370c5341d2748250cbbf52e3/test.csv": {
+      "num_bytes": 6220,
+      "checksum": null
+    }
+  },
+  "download_size": 6220,
+  "features": {
+    "id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "pcd": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "layout": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 13389,
+  "splits": {
+    "test": {
+      "name": "test",
+      "num_bytes": 7169,
+      "num_examples": 107,
+      "dataset_name": "spatial_lm-testset"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
